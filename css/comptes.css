@@ -1,0 +1,135 @@
+
+
+
+/* menu de navigation */
+
+
+.header {
+    background-color: darkcyan;
+    height: 80px;
+    margin: 10px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+ul li a{
+    color: #fff;
+    letter-spacing: 0.1rem;
+}
+
+ul li a:hover{
+    color: #ffd358;
+    text-decoration: underline;
+}
+
+.menu li{
+    float: left;
+    padding: 35px;
+}
+
+.menu li a{
+    text-decoration: none;
+}
+
+form{
+    padding: 35px;
+    text-align: right;
+}
+
+input[type="search"] {
+    font-size: 17px;
+}
+
+/* Page d'accueil */
+
+
+body{
+    background-image: url(../images/fond2.jpg);
+    background-repeat : no-repeat;
+    background-size : 100% 100%;
+}
+form {
+  margin-top: 20px;
+  background-color: rgb(255, 255, 255);
+  padding: 40px 60px;
+    margin: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  border-radius: 10px;
+  min-width: 300px;
+}
+form h1{
+  color: darkcyan;
+  text-align:center;
+}
+form .social-media{
+  margin-top: -10px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+form .social-media p{
+  padding: 5px;
+  width: 20px;
+  margin-left: 10px;
+  border-radius: 100%;
+  border: 1px solid #545454;
+  text-align: center;
+  cursor:pointer;
+  color: #545454;
+}
+form p.choose-email{
+  text-align:center;
+}
+form .inputs {
+  display: flex;
+  flex-direction: column;
+}
+form .inputs input[type='email'], input[type='password']{
+  padding: 15px;
+  border:none;
+  border-radius: 5px;
+  background-color:#f2f2f2;
+  outline:none;
+  margin-bottom: 15px;
+}
+form p.inscription{
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #878787;
+}
+form p.inscription span{
+  color: #eb7371;
+}
+form button{
+  padding: 15px 25px;
+  border-radius: 5px;
+  border:none;
+  font-size: 15px;
+  color: #fff;
+  background-color: darkcyan;
+  outline:none;
+  cursor:pointer;
+}
+
+/* Pied de page */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 600;
+    margin-top: auto;
+    background-color: transparent;
+    color: white;
+}
+
+footer a.cgv {
+    text-decoration: none;
+    color: white;
+}

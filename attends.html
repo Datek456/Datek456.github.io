@@ -1,0 +1,45 @@
+section.fond{
+    background-image: url(../images/fond2.jpg);
+    background-repeat : no-repeat;
+    background-size : 100% 100%;
+}
+ section.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+ }
+
+form.fo {
+    width: 500px;
+    background-color: rgba(0,0,0,0.4);
+    padding: 60px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+input{
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    padding: 6px 10px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+input[type="submit"]{
+    background-color: rgb(36, 231, 36);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+<section class="login">
+    <form class="fo" method="post">
+        <input type="text" name="login" placeholder="Login"/>
+        <input type="password" name="pass" placeholder="Mot de passe"/>
+        <input type="submit" value="S'authentifier" name="valider">
+    </form>            
+</section>
