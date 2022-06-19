@@ -1,0 +1,195 @@
+
+body{
+    background-image: url(../images/fond.jpg);
+    background-repeat : no-repeat;
+    height: 100vh;
+}
+
+/* menu de navigation */
+
+header{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    width: 100%;
+    background-color: #424558;
+}
+
+nav ul{
+    margin-left: 0px;
+    padding: 0px;
+}
+
+nav ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+nav li{
+    list-style-type: none;
+    letter-spacing: 0.15em;
+}
+
+nav ul li{
+    float: left;
+    position: relative;
+}
+
+nav ul li a{
+    padding: 20px 30px;
+    color: white;
+}
+
+nav ul li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.souspartie{
+    display: none;
+}
+
+nav li:hover .souspartie{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 1000;
+}
+
+.souspartie li{
+    border-bottom: 1px solid #CCC;
+}
+
+.souspartie li a{
+    padding: 15px 30px;
+    font-size: 13px;
+    color: white;
+    width: 70px;
+}
+
+.accueil:hover{
+    border-top: 5px solid #BBB;
+    background-color: RGBa(220, 220, 200, 0.15);
+}
+
+.vagues:hover{
+    border-top: 5px solid #BBB;
+    background-color: RGBa(220, 220, 200, 0.15);
+}
+
+.vent:hover{
+    border-top: 5px solid #BBB;
+    background-color: RGBa(220, 220, 200, 0.15);
+}
+
+.webcam:hover{
+    border-top: 5px solid #BBB;
+    background-color: RGBa(220, 220, 200, 0.15);
+}
+
+.marcifrem:hover{
+    background-color: rgb(212, 212, 212);
+}
+
+.windyvague:hover{
+    background-color: rgb(212, 212, 212);
+}
+
+.windyvent:hover{
+    background-color: rgb(212, 212, 212);
+}
+
+.winguru:hover{
+background-color: rgb(212, 212, 212);
+}
+
+.baiedestrep:hover{
+    background-color: rgb(212, 212, 212);
+}
+
+.crozon:hover{
+    background-color: rgb(212, 212, 212);
+}
+
+.vagues .souspartie{
+    background-color: #BBB;
+    background: transparent(90%);
+}
+
+.vent .souspartie{
+    background-color: #BBB;
+    background: transparent(90%);
+}
+
+.webcam .souspartie{
+    background-color: #BBB;
+    background: transparent(90%);
+}
+
+
+/* body */
+
+
+body{
+    height: 1000px;
+    background-image: url(../images/fond2.jpg);
+}
+
+
+h1{
+    font-size: 32px;
+    font-family: none;
+    color: white;
+    font-weight:lighter;
+    text-align:center;
+    display: center;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    background-color: transparent;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    text-shadow: black 1px 1px, black -1px 1px, black -1px -1px, black 1px -1px;
+}
+
+iframe {
+    width: 80%;
+    height: 70vh;
+    border-radius: 12px;
+    border-color: black;
+   margin-left: 10%; 
+   margin-right: 10%;
+    margin-top: 10px;
+    overflow:scroll ;
+}
+
+
+
+/* Pied de page */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 600;
+    margin-top: 5vh;
+    background-color: transparent;
+    color: white;
+    text-shadow: -1px -1px rgb(110, 110, 110), 1px 1px rgb(110, 110, 110), -3px 0 4px rgb(110, 110, 110);
+    
+}
+
+footer a.cgv {
+    text-decoration: none;
+    color: white;
+    text-shadow: -1px -1px rgb(110, 110, 110), 1px 1px rgb(110, 110, 110), -3px 0 4px rgb(110, 110, 110);
+}
